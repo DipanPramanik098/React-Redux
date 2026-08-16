@@ -1,0 +1,107 @@
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+
+/* Product Form */
+form {
+  width: 350px;
+  padding: 25px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: inline-block;
+  width: 110px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+form input {
+  width: 190px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #2563eb;
+}
+
+/* Button */
+.btn {
+  display: block;
+  margin: 15px auto 0;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 7px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Card */
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin: 8px 0;
+  font-size: 16px;
+}

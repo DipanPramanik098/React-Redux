@@ -1,0 +1,138 @@
+.card {
+  position: relative;
+  width: 650px;
+  min-height: 430px;
+  margin: 80px auto 40px;
+  padding: 80px 60px 35px;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Profile Image */
+
+.profile-container {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 120px;
+  height: 120px;
+
+  padding: 5px;
+
+  border-radius: 50%;
+  background-color: #7c3aed;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  display: block;
+}
+
+/* Name */
+
+.card-name {
+  margin: 10px 0 5px;
+
+  font-size: 26px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+/* Job */
+
+.card-job {
+  margin: 0 0 30px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #9ca3af;
+}
+
+/* Testimonial */
+
+.card-text {
+  max-width: 520px;
+  margin: 0 auto 20px;
+
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: #6b7280;
+}
+
+/* Quote */
+
+.quote-icon {
+  margin: 5px 0 15px;
+
+  font-size: 24px;
+  color: #4f46e5;
+}
+
+/* Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  margin-bottom: 25px;
+}
+
+.nav-btn {
+  border: none;
+  background: transparent;
+
+  color: #4f46e5;
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.nav-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Surprise Button */
+
+.surprise-btn {
+  padding: 12px 40px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #8b5cf6;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.surprise-btn:hover {
+  background-color: #7c3aed;
+  transform: translateY(-2px);
+}
